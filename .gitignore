@@ -1,0 +1,38 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+secrets/
+credentials/
+.azure/
+.databricks/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local generated exports
+powerbi_daily_export/
+powerbi_customer_export/
+
+# Downloaded local Bronze copy
+/bronze_transactions.csv
